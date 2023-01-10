@@ -19,3 +19,5 @@ fields:
 - type: file
   name: cover_image
   label: cover_image
+pages:
+- docs/test-blog-post-from-the-article.md
