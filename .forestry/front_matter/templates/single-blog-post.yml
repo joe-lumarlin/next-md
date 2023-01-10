@@ -5,12 +5,17 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: description
   label: description
 - type: text
   name: author
   label: author
+  config:
+    required: true
+  default: J. Lumarlin
 - type: file
   name: cover_image
   label: cover_image
