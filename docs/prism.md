@@ -1,17 +1,17 @@
 ---
-title: 'Prism with Next.js'
-description: 'Example using Prism / Markdown with Next.js including switching syntax highlighting themes.'
-author: 'Joseph Lumarlin'
-cover_image: '/assets/cover-prism-article.png'
----
+title: Prism with Next.js
+description: Example using Prism / Markdown with Next.js including switching syntax
+  highlighting themes.
+author: Joseph Lumarlin
+cover_image: "/assets/cover-prism-article.png"
 
+---
 # Using Prism with Next.js
 
-[**Prism**](https://prismjs.com/) is a popular syntax highlighter commonly used with Markdown.
-This example shows how to use Prism with [**Next.js**](https://nextjs.org/). Use the theme dropdown
+[**Prism**](https://prismjs.com/) is a popular \~syntax\~ highlighter commonly used with Markdown. This example shows how to use Prism with [**Next.js**](https://nextjs.org/). Use the theme dropdown
 in the header to switch syntax highlighting themes.
 
-Next.js uses `getStaticPaths`/`getStaticProps` to generate [static pages](https://nextjs.org/docs/basic-features/data-fetching). These functions are _not_ bundled client-side, so you can **write server-side code directly**. For example, you can read Markdown files from the filesystem (`fs`) – including parsing front matter with [gray-matter](https://github.com/jonschlinkert/gray-matter). For example, let's assume you have a Markdown file located at `docs/my-post.js`.
+Next.js uses `getStaticPaths`/`getStaticProps` to generate [static pages](https://nextjs.org/docs/basic-features/data-fetching). These functions are _not_ bundled client-side, so you can **write server-side code directly**. For example, _you can read Markdown_ files from the filesystem (`fs`) – including parsing front matter with [gray-matter](https://github.com/jonschlinkert/gray-matter). For example, let's assume you have a Markdown file located at `docs/my-post.js`.
 
 We can retrieve that file's contents using `getDocBySlug('my-post')`.
 
@@ -56,7 +56,7 @@ export default async function markdownToHtml(markdown) {
 Passing the `content` returned by `getDocBySlug('my-post')` into `markdownToHtml(content)`
 would convert a Markdown file like this:
 
-````markdown
+```markdown
 ---
 title: 'My First Post'
 description: 'My very first blog post'
@@ -69,7 +69,7 @@ I **love** using [Next.js](https://nextjs.org/)
 ```js
 const doc = getDocBySlug(params.slug);
 ```
-````
+```
 
 into this HTML, which includes the proper elements and class names.
 
