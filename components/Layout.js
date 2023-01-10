@@ -71,7 +71,7 @@ export default function Layout({ children, meta: pageMeta, isMarkdown }) {
               <h1>JL</h1>
             </a>
           </Link>
-          <span><i>by {meta.author}</i></span>
+          {meta.author ? <span><i>by {meta.author}</i></span> : null}
           <ul className="flex justify-between items-center space-x-4">
             <li>
               <div className="inline-block relative w-32">
