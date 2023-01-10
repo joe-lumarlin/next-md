@@ -2,7 +2,7 @@
 author: J. Lumarlin
 title: Test blog post from the article
 description: Some description of the post.
-cover_image: https://res.cloudinary.com/dohiesbbz/v1673379901/public/assets/CleanShot_2022-11-17jac8vjhK_2x_sjrcjm.png
+cover_image: https://res.cloudinary.com/dohiesbbz/v1673357260/public/assets/cld-sample-2.jpg
 
 ---
 ## Sub title #2
