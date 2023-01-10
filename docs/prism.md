@@ -69,24 +69,17 @@ I **love** using [Next.js](https://nextjs.org/)
 ```js
 const doc = getDocBySlug(params.slug);
 ```
-```
 
-into this HTML, which includes the proper elements and class names.
-
-```html
-<h1>My First Post</h1>
-<p>I <strong>love</strong> using <a href="https://nextjs.org/">Next.js</a></p>
-<div class="remark-highlight">
-  <pre class="language-js">
-    <code>
-      <span class="token keyword">const</span> doc <span class="token operator">=</span> <span class="token function">getDocBySlug</span><span class="token punctuation">(</span>params<span class="token punctuation">.</span><span class="token property-access">slug</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    </code>
-  </pre>
-</div>
-```
-
-## Deploy Your Own
-
-View the [**source code**](https://github.com/leerob/nextjs-prism-markdown) and deploy your own. You can add new Markdown files to `docs/` and see them live instantly!
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/leerob/nextjs-prism-markdown)
+    
+    into this HTML, which includes the proper elements and class names.
+    
+    ```html
+    <h1>My First Post</h1>
+    <p>I <strong>love</strong> using <a href="https://nextjs.org/">Next.js</a></p>
+    <div class="remark-highlight">
+      <pre class="language-js">
+        <code>
+          <span class="token keyword">const</span> doc <span class="token operator">=</span> <span class="token function">getDocBySlug</span><span class="token punctuation">(</span>params<span class="token punctuation">.</span><span class="token property-access">slug</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        </code>
+      </pre>
+    </div>
