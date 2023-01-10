@@ -1,0 +1,8 @@
+.image_wrapper {
+  width: 100vw;
+}
+
+.image_wrapper > span {
+  object-fit: fill !important;
+  width: inherit !important;
+}
