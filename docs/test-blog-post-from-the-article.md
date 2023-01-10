@@ -1,6 +1,6 @@
 ---
 author: J. Lumarlin
-title: Test blog post from the article
+title: Test blog post
 description: Some description of the post.
 cover_image: https://res.cloudinary.com/dohiesbbz/v1673357260/public/assets/cld-sample-2.jpg
 
