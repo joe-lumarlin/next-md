@@ -1,0 +1,16 @@
+---
+label: Single Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
+- type: file
+  name: cover_image
+  label: cover_image
