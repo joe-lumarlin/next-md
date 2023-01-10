@@ -20,5 +20,6 @@ In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Maecenas nec od
 Suspendisse feugiat. Suspendisse non nisl sit amet velit hendrerit rutrum. Fusce vel dui. Nullam sagittis. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.
 
 ```js
-console.log('foo');
+const foo = 'boo';
+console.log(foo);
 ```
